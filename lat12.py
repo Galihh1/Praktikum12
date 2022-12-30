@@ -1,15 +1,3 @@
-# Praktikum 12
-# Latihan 1
-**txt = 'Hello World'**
- - Hitung jumlah karakternya
- - Ambil karakter terakhir
- - Ambil karakter index ke-2 sampai index ke-4 (llo)
- - Hilangkan spasi pada text tersebut (HelloWorld)
- - Ubah text menjadi huruf besar
- - Ubah text menjadi huruf kecil
- - Ganti karakter H dengan karakter J
-
-```bash
 txt = 'Hello World'
 print("LATIHAN 1")
 print(f"Teks = {txt}")
@@ -40,15 +28,3 @@ print(f"Teks menjadi huruf kecil = {e}")
 # Ganti karakter H dengan karakter J
 f = txt.replace("H","J")
 print(f"Menganti karakter H dengan J = {f}")
-```
-
-![image.png](ss/lat1.png)
-
-# Latihan 2
-```bash
-print("Latihan 2")
-umur = int(input("Silahkan masukan umur anda : "))
-txt = 'Hello, nama saya John, dan umur saya adalah {0} tahun'
-print(txt.format(umur))
-```
-![image.png](ss/lat2.png)
